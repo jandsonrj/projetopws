@@ -1,7 +1,7 @@
 ###  <b>Olá, seja bem vindo(a)</b> ao projeto  <b>PW-SORVETES</b> :)
 
 
-  Bom, escolhi desenvolver um projeto em FRONTEND pelo fato de ser a área onde eu mais tenho conhecimento, <br/> busquei fazer um web-site diferente de todos que eu já vi, desde imagens, coloração e até mesmo funções.  <br/> Se trata de um projeto que ainda está em desenvolvimento, embora já tenha bastante funções legais e interativa, conforme eu fui desenvolvendo foram surgindo muitas ideias e eu logo anotei todas e irei implementar no decorrer do tempo. <br/> Desde já quero deixar claro, que apesar de ter sido um projeto simples, foi desafiador, eu aprendi muias funções novas, fiquei muito feliz em poder participar, porquê apesar de eu ter alguns projetos de estudos, esse foi o primeiro desafio profissional da minha carreira, de muitos que estão por vir. 
+  Bom, escolhi desenvolver um projeto em FRONTEND pelo fato de ser a área onde eu mais tenho conhecimento, <br/> busquei fazer um web-site diferente de todos que eu já vi, desde imagens, coloração e até mesmo funções.  <br/> Se trata de um projeto que ainda está em desenvolvimento, embora já tenha bastante funções legais e interativa, conforme eu fui desenvolvendo foram surgindo muitas ideias e eu logo anotei todas e irei implementar no decorrer do tempo. <br/> Desde já quero deixar claro, que apesar de ter sido um projeto simples, foi desafiador, eu aprendi muitas funções novas, fiquei muito feliz em poder participar, porquê apesar de eu ter alguns projetos de estudos, esse foi o primeiro desafio profissional da minha carreira, de muitos que estão por vir. 
 
 // Em fim.
 
