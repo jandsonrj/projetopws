@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <title>Painel de Controle</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo-pws">
+        <div class="logo-image">
+          <img src="image/pwc.jpg" alt="" />
+        </div>
+
+        <div class="logo_pws" id="logado"></div>
+      </div>
+
+      <div class="menu-pws">
+        <ul class="nav-links">
+          <li>
+            <a href="#">
+              <i class="uil uil-dashboard"></i>
+              <span class="link-pws">Painel de Controle</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="uil uil-user"></i>
+              <span class="link-pws">Usuários</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="uil uil-search-alt"></i>
+              <span class="link-pws">Novos Pedidos</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="uil uil-envelope-question"></i>
+              <span class="link-pws">Mensagens</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="uil uil-setting"></i>
+              <span class="link-pws">Alterar Dados</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="logout-mode">
+          <li>
+            <a href="#">
+              <i class="uil uil-sign-in-alt"></i>
+              <span class="link-pws" onclick="sair()">Sair</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="dashboard">
+      <div class="top">
+        <i class="uil uil-bars sidebar-toggle"></i>
+
+        <div class="search-box">
+          <i class="uil uil-search"></i>
+          <input type="text" id="buscar" placeholder="Buscar..." />
+        </div>
+
+        <div class="help">
+          <a href="#"
+            >AJUDA & SUPORTE <i class="uil uil-question-circle"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <i class="uil uil-tachometer-fast-alt"></i>
+            <span class="text">Painel de Controle</span>
+          </div>
+
+          <div class="activity-data">
+            <div class="data-list" id="avatar">
+            </div>
+            
+              <div class="data-list" id="primeiro_nome"><li>Nome</li></div>
+            
+              <div class="data-list" id="ultimo_nome"><li>Sobrenome</li></div>
+                
+              <div class="data-list" id="email"><li>Email</li></div>
+            
+              <div class="data-list" id="telefone"><li>Telefone</li></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

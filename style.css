@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(image/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+#msgError{
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+  
+  #msgSuccess{
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+
+.pwb{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+.box{
+    display: flex;
+    width: 930px;
+}
+.img-box{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px  0 0 20px;
+}
+.img-box img{
+    width: 100%;
+}
+.form-box{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+.form-box h2{
+    font-size: 30px;
+    color: #FF008A;
+}
+.form-box p{
+    font-weight: bold;
+    color: #3D3D3D;
+}
+.form-box p a{
+    color: blue;
+    text-decoration: none;
+}
+.form-box form{
+    margin: 20px 0;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-size: bold;
+}
+
+form .pw-sorvetes{
+    margin-bottom: 15px;
+}
+form .pw-sorvetes label{
+    color: #3D3D3D;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+form .pw-sorvetes input{
+    width: 100%;
+    height: 47px;
+    background-color: rgba(255, 255, 255, 0.32);
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease;
+    border-color: gray;
+}
+form .pw-sorvetes input:focus{
+    border-color: #ff008869;
+}
+form .pw-sorvetes button{
+    width: 100%;
+    height: 47px;
+    background: #FF008A;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+form .pw-sorvetes button:hover {
+    background-color: rgb(232, 110, 181);
+}
+@media (max-width:930px) {
+    .img-box{
+        display: none;
+    }
+    .box{
+        width: 700px;
+    }
+    .form-box{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+@media (max-width:500px) {
+    .pwb{
+        width: 50%;
+        padding: 0;
+        
+    }
+}

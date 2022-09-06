@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Login Pw-Sorvetes</title>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="img-box">
+            <img src="image/PWS.gif">
+        </div>
+        <div class="form-box">
+            <h2>Entrar</h2>
+            <div id='msgError'></div>
+            <p> Não possui cadastro? <a href="./../index.html">   Cadastre-se ➞</a></p>
+         <form action="#">
+                <div class="pw-sorvetes">
+                    <label id="emailLabel" for="email">Email</label>
+                    <input type="email" id="email" placeholder="Ex.: user@pwsorvetes.com.br" autofocus required>
+                </div>
+
+                <div class="pw-sorvetes pwb">
+                    <label id="" for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <label for="checkbox">
+                    <input type="checkbox" id="checkbox" name="LembrarMe">
+                    &nbsp;Permanecer Logado
+                </label>
+                
+             <div class="pw-sorvetes pwb">
+                <button onclick='entrar()'>
+                    <i class="uil uil-sign-out-alt"></i>
+                     &nbsp;Entrar
+                </button>
+            
+            </div>
+
+       </form>   
+<script src="login.js"></script>
+</body>
+</html>

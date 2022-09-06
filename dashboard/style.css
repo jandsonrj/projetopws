@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+:root{
+    --tran-05: all 0.5s ease;
+    --tran-03: all 0.3s ease;
+    --tran-03: all 0.2s ease;
+}
+
+body{
+    min-height: 100vh;
+    overflow: hidden;    
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 14px;
+    background-image: url(image/dash.jpg);
+    border-right: 1px solid #D3D3D3;
+    transition: var(--tran-05);
+    background-size: cover;
+}
+nav.close{
+    width: 73px;
+}
+
+nav .logo-pws{
+    display: flex;
+    align-items: center;
+}
+
+
+
+nav .logo-image{
+    display: flex;
+    justify-content: center;
+    min-width: 45px;
+}
+
+nav .logo-image img{
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+nav .logo-pws .logo_pws{
+    margin-left: 22px;
+    font-weight: 600;
+    color: black;
+    margin-left: 14px;
+    transition: var(--tran-05);
+}
+
+nav a{
+    text-decoration: none;
+}
+
+
+nav.close .logo_pws{
+    opacity: 0;
+    pointer-events: none;
+}
+
+nav .menu-pws{
+    margin-top: 40px;
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-pws li{
+    list-style: none;
+}
+
+.menu-pws li a{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-links li a:hover:before{
+   content: "";
+   position: absolute;
+   height: 5px;
+   width: 5px;
+   left: -7px;
+   border-radius: 50%;
+   background-color: #FF008A;
+}
+
+.menu-pws li a .link-pws{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    transition: var(--tran-05);
+}
+
+nav.close li a .link-pws{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.menu-pws li a i{
+    font-size: 24px;
+    min-width: 45px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.nav-links li a:hover i,
+.nav-links li a:hover .link-pws{
+    color: #FF008A;
+}
+
+.dashboard{
+    position: relative;
+    left: 250px;
+    background-color: #FFF0F5;
+    height: 100vh;
+    width: calc(100% - 250px);
+    padding: 10px 14px;
+    transition: var(--tran-05);
+}
+
+nav.close ~ .dashboard{
+    left: 73px;
+    width: calc(100% - 73px);
+}
+
+.dashboard .top{
+    position: fixed;
+    top: 0;
+    left: 250px;
+    display: flex;
+    width: calc(100% - 250px);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    background-color: white;
+    transition: var(--tran-05);
+    z-index: 10;
+}
+
+nav.close ~ .dashboard .top{
+    left: 73px;
+    width: calc(100% - 73px);
+}
+
+.dashboard .top .sidebar-toggle{
+    font-size: 26px;
+    color: #000;
+    cursor: pointer;
+}
+
+.dashboard .top .search-box{
+    position: relative;
+    height: 45px;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 30px;
+}
+
+
+
+.top .search-box input{
+    height: 100%;
+    position: absolute;
+    width: 60%;
+    left: 85px;
+    border: 1px solid #FF008A;
+    background-color: #FFF5EE;
+    padding: 0 25px 0 50px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 400;
+    outline: none;
+}
+
+.top .search-box i{
+    position: absolute;
+    left: 17%;
+    font-size: 20px;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.top a, i{
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.help i{
+    font-size: 22px;
+    color: #FF008A;
+}
+
+.top a:hover{
+    color: #FF008A;
+    font-size: 19px;
+}
+
+.dashboard .dash-content{
+    padding-top: 50px;
+}
+
+.dash-content .title{
+    display: flex;
+    align-items: center;
+    margin: 60px 0 30px 0;
+}
+
+.dash-content .title i{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: pink;
+    border-radius: 6px;
+    color: var(#fff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.dash-content .title .text{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(#000);
+    margin-left: 10px;
+}
+
+.dash-content .activity-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.activity-data img {
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+    margin-top: auto;
+}
+
+
+@media (max-width: 1000px){
+    nav{
+        width: 73px;
+    }
+    nav.close{
+        width: 250px;
+    }
+    nav .logo_pws{
+        opacity: 0;
+        pointer-events: none;
+    }
+    nav.close .logo_pws{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    nav li a .link-pws{
+        opacity: 0;
+        pointer-events: none;
+    }
+    nav.close li a .link-pws{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    nav ~ .dashboard{
+        left: 73px;
+        width: calc(100% - 73px);
+    }
+    nav.close ~ .dashboard{
+        left: 73px;
+        width: calc(100% - 73px);
+    }
+    nav ~ .dashboard .top{
+        left: 73px;
+        width: calc(100% - 73px);
+    }
+    nav.close ~ .dashboard .top{
+        left: 250px;
+        width: calc(100% - 250px);
+    }
+    .activity-data{
+        overflow-X: scroll;
+    }
+}
+
+@media (max-width: 780px) {
+    .dash-content{
+        width: calc(100% / 2 - 15px);
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 560px) {
+    .dash-content{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    nav{
+        width: 73px;
+    }
+    nav.close{
+        width: 73px;
+    }
+    nav .logo_pws{
+        opacity: 0;
+        pointer-events: none;
+    }
+    nav.close .logo_pws{
+        opacity: 0;
+        pointer-events: none;
+    }
+    nav li a .link-pws{
+        opacity: 0;
+        pointer-events: none;
+    }
+    nav.close li a .link-pws{
+        opacity: 0;
+        pointer-events: none;
+    }
+    nav ~ .dashboard{
+        left: 73px;
+        width: calc(100% - 73px);
+    }
+    nav.close ~ .dashboard{
+        left: 73px;
+        width: calc(100% - 73px);
+    }
+    nav ~ .dashboard .top{
+        left: 73px;
+        width: calc(100% - 73px);
+    }
+    nav.close ~ .dashboard .top{
+        left: 73px;
+        width: calc(100% - 73px);
+    }
+    .dashboard .top .sidebar-toggle{
+        display: none;
+    }
+}
