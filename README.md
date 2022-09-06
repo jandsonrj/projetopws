@@ -6,7 +6,6 @@
 // Em fim.
 
   Para executar o projeto, é necessário preencher o cadastro corretamente e logo será direcionado para a tela de login, <br/>
- onde você irá inserir os dados que usou para cadastro e terá acesso ao Painel de Controle (só a opção sair está funcional por enquanto), para visualizar os usuários e seus respectivos dados, <br/>
-é necessário executar a API em seu cmd ou IDE, API onde eu fiz algumas modificações e estarei deixando no email, junto do link para o projeto. 
+ onde você irá inserir os dados que usou para cadastro e terá acesso ao Painel de Controle (só a opção sair está funcional por enquanto), para visualizar os usuários e seus respectivos dados, é necessário executar a API em seu cmd ou IDE, <br/> API onde eu fiz algumas modificações e estarei deixando no email, junto do link para o projeto. 
 
 
