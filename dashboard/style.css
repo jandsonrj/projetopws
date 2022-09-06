@@ -28,6 +28,7 @@ nav{
     border-right: 1px solid #D3D3D3;
     transition: var(--tran-05);
     background-size: cover;
+    background-position: 52vh;
 }
 nav.close{
     width: 73px;
