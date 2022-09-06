@@ -11,4 +11,4 @@
 
 
 
-<a href="https://jandsonrj.github.io/projetopws/" target"_blank">Executar o projeto</a>
+<a href="https://jandsonrj.github.io/projetopws/" target="_blank">Executar o projeto</a>
