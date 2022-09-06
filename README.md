@@ -9,3 +9,6 @@
  onde você irá inserir os dados que usou para cadastro e terá acesso ao Painel de Controle (só a opção sair está funcional por enquanto), para visualizar os usuários e seus respectivos dados, é necessário executar a API em seu cmd ou IDE, <br/> API onde eu fiz algumas modificações e estarei deixando no email, junto do link para o projeto. 
 
 
+
+
+<a href="https://jandsonrj.github.io/projetopws/">Executar o projeto</a>
